@@ -1,4 +1,4 @@
-CFLAGS=-Wall -g
+CFLAGS=-Wall -g -DNDEBUG
 
 clean:
 	rm -f hello_world
@@ -16,3 +16,5 @@ clean:
 	rm -f ex18
 	rm -f ex19
 	rm -f ex20
+	rm -f ex22.o
+	rm -f ex22_main

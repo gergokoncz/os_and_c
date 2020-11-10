@@ -89,10 +89,10 @@ error:
 int main(int argc, char *argv[]) {
 	check(argc == 2, "Need an argument.");
 
-	test_debug();
-	test_log_err();
-	test_log_warn();
-	test_log_info();
+	test_debug(); // passed
+	test_log_err(); // passed
+	test_log_warn(); // passed
+	test_log_info(); // passed
 
 	check(test_check("ex20.c") == 0, "failed with ex20.c");
 	check(test_check(argv[1]) == -1, "failed with argv");
