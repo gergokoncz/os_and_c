@@ -19,3 +19,5 @@ clean:
 	rm -f ex22.o
 	rm -f ex22_main
 	rm -f ex23
+	rm -f ex24
+	rm -f ex25
